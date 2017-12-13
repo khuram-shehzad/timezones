@@ -11,7 +11,7 @@
 |
 */
 Route::get('timezones/{timezone?}', 
-  'laraveldaily\timezones\TimezonesController@index');
+  'laraveltimezones\timezones\TimezonesController@index');
 
 // Route::get('timezones/{timezone}', 
 //   'laraveldaily\timezones\TimezonesController@index');
